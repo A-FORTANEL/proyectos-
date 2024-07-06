@@ -1,43 +1,11 @@
-# proyectos-
-calculadora IMC
-def calcular_imc(peso, estatura):
-    return peso / (estatura ** 2)
+Reflexión sobre el Programa y el Bootcamp
+Programa para Calcular Índice de Masa Corporal (IMC)
+Este programa desarrollado en Python permite calcular el Índice de Masa Corporal (IMC) a partir de datos ingresados por el usuario como peso y estatura. Utiliza funciones para modularizar el cálculo del IMC y ofrece una clasificación del estado de peso del usuario según los resultados obtenidos.
 
-def main():
-    print("Programa para calcular el Índice de Masa Corporal (IMC)\n")
+Aprendizajes del Bootcamp
+Durante este bootcamp, he mejorado mi habilidad para:
 
-    # Datos del usuario (coloca tus datos aquí)
-    nombre = "Jose Arturo"
-    apellido_paterno = "Fortanel"
-    apellido_materno = "Gonzalez"
-    edad = 36
-    peso = 73
-    estatura = 1.70
-
-    # Calcular IMC
-    imc = calcular_imc(peso, estatura)
-
-    # Mostrar resultados
-    print("\nDatos personales:")
-    print(f"Nombre completo: {nombre} {apellido_paterno} {apellido_materno}")
-    print(f"Edad: {edad} años")
-    print(f"Peso: {peso} kg")
-    print(f"Estatura: {estatura} m")
-    print(f"Índice de Masa Corporal (IMC): {imc:.2f}")
-
-    # Clasificación del IMC
-    if imc < 18.5:
-        print("Estado: Bajo peso")
-    elif imc < 24.9:
-        print("Estado: Peso normal")
-    elif imc < 29.9:
-        print("Estado: Sobrepeso")
-    elif imc < 34.9:
-        print("Estado: Obesidad tipo I")
-    elif imc < 39.9:
-        print("Estado: Obesidad tipo II")
-    else:
-        print("Estado: Obesidad tipo III (mórbida)")
-
-if __name__ == "__main__":
-    main()
+Capturar y validar datos de manera efectiva utilizando Python.
+Utilizar funciones para estructurar y reutilizar código de manera eficiente.
+Familiarizarme con GitHub como herramienta para control de versiones y colaboración en proyectos de programación.
+Este ejercicio no solo ha fortalecido mis habilidades técnicas, sino que también ha destacado la importancia de la organización y la documentación en el desarrollo de software.
